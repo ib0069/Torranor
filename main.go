@@ -58,7 +58,7 @@ func DecrementUsage(t *torrent.Torrent) {
 					delete(usageCount, t.InfoHash().HexString())
 					err := os.RemoveAll("./data/" + t.Name())
 					if err != nil {
-						Log.Printf("error deleting unused torrent file: %v", err)
+						log.Printf("error deleting unused torrent file: %v", err)
 					}
 
 				}
