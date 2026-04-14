@@ -1,6 +1,6 @@
 {
-  "uploadKBps": 1024,
-  "uploadBurstSizeKB": 1024,
+  "uploadKBps": 10240,
+  "uploadBurstSizeKB": 10240,
   "seedDurationMinute": 1440,
   "listeningPort": 6881
 }
